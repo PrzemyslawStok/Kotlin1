@@ -10,4 +10,7 @@ fun main(){
     println((1..10).map{it*it})
 
     println((1..10).map{it*it}.filter{ it<100 }.map{it*it*it})
+
+    val student = Student("Przemysław","Stokłosa")
+    student.printStudent()
 }
