@@ -5,5 +5,6 @@ fun main(){
     a = 10.0.toInt()
 
     val add = a+b
-    print("Suma liczb "+a+" i "+b+" wynosi: "+add)
+    println("Suma liczb "+a+" i "+b+" wynosi: "+add)
+    println("${a}+${b}=${add}")
 }
