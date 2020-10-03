@@ -25,7 +25,11 @@ fun main(){
     var array1 = (1..10).map{it*it}
 
     val student = Student("Przemysław","Stokłosa")
+    student.weight = 72.0
     student.printStudent()
+
+    val student1 = Student("Przemysław","Stokłosa",73.0)
+    student1.printStudent()
 }
 
 fun add(a: Double, b: Double):Double{
