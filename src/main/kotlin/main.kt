@@ -32,6 +32,8 @@ fun main(){
     student1.printStudent()
 
     //Przykłady lambda
+    val square:(Int)->Int = {a:Int->a*a}
+    val sum:(Int,Int)->Int = {a:Int,b:Int->a+b}
 }
 
 fun add(a: Double, b: Double):Double{
