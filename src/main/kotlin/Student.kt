@@ -3,11 +3,12 @@ class Student {
     var surname: String = ""
 
     constructor(name: String, surname: String){
-        this.name = name;
-        this.surname = surname;
+        this.name = name
+        this.surname = surname
     }
 
     fun printStudent(){
-        print("Imię: ${name} Nazwisko: ${surname}")
+        println("Imię: ${name}")
+        println("Nazwisko: ${surname}")
     }
 }
