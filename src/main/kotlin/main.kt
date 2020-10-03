@@ -30,6 +30,8 @@ fun main(){
 
     val student1 = Student("Przemysław","Stokłosa",73.0)
     student1.printStudent()
+
+    //Przykłady lambda
 }
 
 fun add(a: Double, b: Double):Double{
