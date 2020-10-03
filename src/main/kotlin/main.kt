@@ -19,7 +19,7 @@ fun main(){
 
     var array = mutableListOf(1,2,3,4,5,6,7,8,9,10)
 
-    println(arragy.map{a->a*a}.filter{it%2==0})
+    println(array.map{a->a*a}.filter{it%2==0})
     println(array.map{2*it})
 
     var array1 = (1..10).map{it*it}
